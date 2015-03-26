@@ -30,12 +30,10 @@ var Blacklister = (function(){
 
 		});
 
-		if(!tmp.length){
-			var rgx = new RegExp(tmp.join('|'), 'gi');
-			return txt.replace(rgx, this.replacement);
-		}
+		if(!tmp.length) return txt;
 
-		return txt;
+		var rgx = new RegExp(tmp.join('|'), 'gi');
+		return txt.replace(rgx, this.replacement);
 	};
 
 	Blacklister.prototype.blacklist = blacklist;
