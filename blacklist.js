@@ -2,15 +2,6 @@
 ** Blacklister for replacing unwanted words with astricks
 ** Author: Daniel Skelton
 ** @justtdan
-
-USAGE: 
-
-var blacklister = new Blacklister({
-	blacklisted: ['arse', 'faggot'],
-	replacement: '***** '
-});
-
-blacklister.blacklist(words)
 */
 
 var Blacklister = (function(){
