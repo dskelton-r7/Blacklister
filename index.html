@@ -1,19 +1,9 @@
 <html>
 	<head>
-		<script src="blacklist.js"></script>
+		<title>Blacklister</title>
 	</head>
 	<body>
-		<div id="test"></div>
-		<script>
-			var testParagraph = "Hi, arse twat. Shit bitch how are you today?";
-
-			var blacklister = new Blacklister({
-				blacklisted: ['arse', 'twat'],
-				replacement: '*****'
-			});
-			
-			console.log (  blacklister.blacklist(testParagraph) ); // << look in console.
-			document.getElementById('test').innerHTML = blacklister.blacklist(testParagraph);
-		</script>
+		<p id='sample'></p>
+		<script src="dist/index.js"></script>
 	<body>
 </html>
