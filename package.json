@@ -1,0 +1,25 @@
+{
+  "name": "blacklister",
+  "version": "1.0.0",
+  "description": "Quick demo of blacklisting words",
+  "main": "blacklist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JusttDan/Blacklister.git"
+  },
+  "author": "JusttDan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JusttDan/Blacklister/issues"
+  },
+  "homepage": "https://github.com/JusttDan/Blacklister#readme",
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.1",
+    "gulp": "^3.8.11",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
