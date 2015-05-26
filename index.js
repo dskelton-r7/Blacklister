@@ -7,6 +7,4 @@ const blacklister = new Blacklister({
 	blacklisted : ['daniel', 'skelton']
 });
 
-
 document.getElementById('sample').innerHTML = blacklister.run(sample);
-

@@ -17,7 +17,6 @@ export default class Blacklister {
 		);
 
 		if(!tmp.length) return tmp;
-
 		return sample.replace(new RegExp(tmp.join('|'), 'gi'), this.replacement);
 
 	}
